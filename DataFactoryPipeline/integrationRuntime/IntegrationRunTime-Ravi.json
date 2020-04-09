@@ -1,0 +1,6 @@
+{
+	"name": "IntegrationRunTime-Ravi",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
