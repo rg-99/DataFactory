@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=RAVI3148283\\SQL2016;initial catalog=LocalDB;user id=sa1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0MzQxNTEzZS01MTdmLTRmZjYtODdhMS1mYmI0NDkyMDMxYWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IntegrationRunTime-Ravi",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
